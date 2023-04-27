@@ -9,14 +9,16 @@ public class CalculatorTest {
 	@Test
 	public void test() {
 		Calculator calc=new Calculator();
-		assertEquals(100, calc.add(50, 50));
+		int result=calc.add(50, 50);
+		assertEquals(100, result);
 		
 	}
 
 	@Test
 	public void test2() {
 		Calculator calc=new Calculator();
-		assertEquals(-100, calc.add(-150, 50));
+		int result=calc.add(-150, 50);
+		assertEquals(-100,result );
 		
 	}
 	
